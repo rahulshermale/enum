@@ -3,11 +3,6 @@ package Pack_01;
 enum Day {
 	Sun, Mon, Tue, Wed, Thur, Fri, Sat,;
 	int num;
-Day(){
-	
-	num++;
-	System.out.println("Enum Constructor  "+num);
-}
 }
 
 public class Enum_Demo {
